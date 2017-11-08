@@ -11,6 +11,7 @@
 		06FE6F041FB2829200C8EF59 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FE6F031FB2829200C8EF59 /* GameScene.swift */; };
 		06FE6F061FB2829200C8EF59 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FE6F051FB2829200C8EF59 /* GameViewController.swift */; };
 		06FE6F181FB283FF00C8EF59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FE6F171FB283FF00C8EF59 /* Main.storyboard */; };
+		06FE6F1C1FB29A6400C8EF59 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 06FE6F1B1FB29A6400C8EF59 /* GameScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		06FE6F051FB2829200C8EF59 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		06FE6F0F1FB2829200C8EF59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06FE6F171FB283FF00C8EF59 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		06FE6F1B1FB29A6400C8EF59 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +54,12 @@
 		06FE6EFC1FB2829200C8EF59 /* viewPresentSceneTest */ = {
 			isa = PBXGroup;
 			children = (
+				06FE6F0F1FB2829200C8EF59 /* Info.plist */,
+				06FE6F1B1FB29A6400C8EF59 /* GameScene.sks */,
+				06FE6F171FB283FF00C8EF59 /* Main.storyboard */,
 				06FE6EFD1FB2829200C8EF59 /* AppDelegate.swift */,
 				06FE6F031FB2829200C8EF59 /* GameScene.swift */,
 				06FE6F051FB2829200C8EF59 /* GameViewController.swift */,
-				06FE6F171FB283FF00C8EF59 /* Main.storyboard */,
-				06FE6F0F1FB2829200C8EF59 /* Info.plist */,
 			);
 			path = viewPresentSceneTest;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06FE6F1C1FB29A6400C8EF59 /* GameScene.sks in Resources */,
 				06FE6F181FB283FF00C8EF59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
