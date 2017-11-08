@@ -1,4 +1,3 @@
-import UIKit
 import SpriteKit
 
 class GameViewController: UIViewController {
@@ -18,27 +17,6 @@ class GameViewController: UIViewController {
                 // Show the new scene:
                 view.presentScene(scene)
             }
-            
-            view.ignoresSiblingOrder = true
-            view.showsFPS = true
-            view.showsNodeCount = true
         }
     }
-    
-    override var shouldAutorotate: Bool {
-        return true
-    }
-    
-    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        return .landscape
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-    
-    override var prefersStatusBarHidden: Bool {
-        return true
-    }
 }
-
